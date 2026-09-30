@@ -1,0 +1,80 @@
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
+
+header img {
+    margin-left: 25px;
+}
+
+
+nav ul {
+    margin-right: 38px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: solid 1px;
+    font-size: larger;
+}
+
+nav a.active {
+    border-bottom: solid 1px;
+    font-weight: bold;
+}
+
+.cart:hover {
+    transform: scale(1.25);
+}
+
+.user:hover {
+    transform: scale(1.25);
+}
+
+.card-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.goal {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px;
+}
+
+.goal h2 {
+    text-align: center;
+}
+
+.cardtwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    gap: 25px;
+}
